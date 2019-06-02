@@ -1,0 +1,26 @@
+{
+  "title": "Command + F10 to right-click",
+  "rules": [
+    {
+      "description": "Command + F10 to right-click",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f10",
+            "modifiers": {
+              "mandatory": [
+                "right_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "pointing_button": "button2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
